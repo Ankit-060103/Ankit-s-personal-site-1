@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>My contact details</h1>
+    <p>my fictional address</p>
+    <p>08262346437</p>
+    <p>myemail@gmail.com</p>
+    <hr>
+    <form action="mailto:myemail@gmail.com" method="post" enctype="text/plain">
+        <label for="Name">Your Name:</label>
+        <input type="text" name="name" id="Name">
+    <br>
+        <label for="xyz">Your email:</label>
+        <input type="email" name="email" id="xyz"><br>
+        <label for="XYZ">Password:</label>
+        <input type="password" name="Password" id="XYZ"><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="DOB" id="dob"><br>
+        <label for="message">Your Message:</label><br>
+        <textarea name="Message" id="message" cols="30" rows="10"></textarea><br>
+        <label for="notification">want to get notify</label>
+        <input type="checkbox" name="yes" id="notification">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
